@@ -129,7 +129,7 @@ if __name__ == '__main__':
     parser.add_argument('--stock_like', default=True, type=lambda x: x == 'True')
 
     # Causal discovery
-    parser.add_argument('--method', default='PCMCIomega', type=str)
+    parser.add_argument('--method', default='Granger', type=str)
     parser.add_argument('--max_lags', default=10, type=int)
 
     # FFT

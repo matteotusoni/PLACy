@@ -1,0 +1,8 @@
+matplotlib==3.10.1
+numpy==2.2.4
+pandas==2.2.3
+scikit-learn==1.6.1
+scipy==1.15.2
+statsmodels==0.14.4
+tigramite==5.2.7.0
+colorednoise==2.2.0

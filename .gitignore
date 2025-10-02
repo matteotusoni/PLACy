@@ -1,0 +1,15 @@
+.venv/
+*.pyc
+*.sh
+*results*/
+plots*/
+.vscode/
+fit_logs/
+params*.txt
+*generated_data/
+tables/
+data/
+!src/data
+Dataset/
+logs/
+metrics*

@@ -56,7 +56,7 @@ def main(args: argparse.Namespace) -> None:
     
     if args.method == 'Granger': 
         cm_est_time: np.ndarray = granger(process, max_lags=args.max_lags)
-        cm_est_freq: np.ndarray = PLACy(process, max_lags=args.max_lags, window_length=args.window_length, stride=args.stride)
+        cm_est_freq: np.ndarray = PLACy(process, max_lags=args.max_lags, window_length=args.window_length, stride=args.stride, use_bh_fdr = False, acyclicity = False)
 
     elif args.method == 'PCMCI':
         cm_est_time: np.ndarray = pcmciplus(process, tau_max=args.max_lags).max(-1)

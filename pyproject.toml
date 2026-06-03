@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "placy"
-version = "0.1.0"
-description = "PLACy causal discovery for non-stationary time series"
+version = "0.1.2"
+description = "PLACy causal discovery for power law spectra time series"
 readme = "README.md"
 requires-python = ">=3.9"
 

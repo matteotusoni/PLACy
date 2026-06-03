@@ -1,3 +1,17 @@
+Metadata-Version: 2.4
+Name: placy
+Version: 0.1.2
+Summary: PLACy causal discovery for power law spectra time series
+Author-email: Matteo Tusoni <tusoni@di.uniroma1.it>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: statsmodels
+Dynamic: license-file
+
 # PLACy: Robust Causal Discovery in Real-World Time Series with Power-Laws
 
 🏆 **ICML 2026 Spotlight (Top 2%)**

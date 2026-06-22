@@ -2,7 +2,7 @@
 
 🏆 **ICML 2026 Spotlight (Top 2%)**
 
-**Matteo Tusoni, Gianmarco Masi, Andrea Coletta, Alessandro Glielmo, Valerio Arrigoni, Nicola Bartolini**
+**Matteo Tusoni, Giuseppe Masi, Andrea Coletta, Aldo Glielmo, Viviana Arrigoni, Novella Bartolini**
 
 **Robust Causal Discovery in Real-World Time Series with Power-Laws**
 
@@ -73,7 +73,7 @@ If you use PLACy in your research, please cite:
 ```bibtex
 @inproceedings{tusoni2026placy,
   title={Robust Causal Discovery in Real-World Time Series with Power-Laws},
-  author={Tusoni, Matteo and Masi, Gianmarco and Coletta, Andrea and Glielmo, Alessandro and Arrigoni, Valerio and Bartolini, Nicola},
+  author={Tusoni, Matteo and Masi, Giuseppe and Coletta, Andrea and Glielmo, Aldo and Arrigoni, Viviana and Bartolini, Novella},
   booktitle={International Conference on Machine Learning (ICML)},
   year={2026}
 }

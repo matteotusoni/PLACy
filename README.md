@@ -66,6 +66,29 @@ python src/run.py \
 
 ---
 
+## Benchmark Dataset
+
+We provide a free benchmark dataset generated using the same simulation environment described in the paper. The datasets are based on Ornstein–Uhlenbeck (OU) processes and are intended as a baseline for evaluating causal discovery algorithms.
+
+The benchmark includes both stationary and stock-like OU process simulations (with multiplicative noise), together with their corresponding ground-truth causal graphs.
+
+Users can either:
+
+* Use the pre-generated datasets provided as `.zip` archives in the main directory.
+* Generate custom datasets using `dataset.ipynb`, which imports the `ou_process` and `ou_process_stocklike` functions and allows simulation parameters to be modified as needed.
+
+Each dataset contains:
+
+* Multivariate time series (`process.csv`)
+* Ground-truth adjacency matrix (`adj_matrix.npy`)
+* Metadata describing the generation parameters (`metadata.json`)
+
+
+📓 **[Benchmark.zip](Benchmark.zip)**
+
+
+---
+
 ## Citation
 
 If you use PLACy in your research, please cite:

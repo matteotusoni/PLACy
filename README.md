@@ -68,9 +68,7 @@ python src/run.py \
 
 ## Benchmark Dataset
 
-We provide a free benchmark dataset generated using the same simulation environment described in the paper. The datasets are based on Ornstein–Uhlenbeck (OU) processes and are intended as a baseline for evaluating causal discovery algorithms.
-
-The benchmark includes both stationary and stock-like OU process simulations (with multiplicative noise), together with their corresponding ground-truth causal graphs.
+We provide a public benchmark dataset generated using the same simulation environment described in the paper. The datasets are based on Ornstein–Uhlenbeck (OU) processes and are intended as a baseline for evaluating causal discovery algorithms.
 
 Users can either:
 
